@@ -62,13 +62,16 @@ text-align:center;
 }
 .header-bottom {
   padding: 2em 0;
+  align: center;
 }
 span.menu {
   display: none;
 }
+
 .top-menu{
 	float:left;
 	margin-top: 0.3em;
+  text-align: center;
 }
 .top-menu ul li{
 	display:inline-block;
