@@ -35,6 +35,7 @@ ul{
 }
 .myli{
   margin: 0.5em 3em;
+    text-align: left;
 }
 body{
 	padding:0 0;
@@ -91,7 +92,14 @@ span.menu {
 	color: #6f8686;
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
+.cl-effect-16{
+    position: absolute;
+    width: auto; /* Ширина слоя */
+    margin: 0 auto;
+    left: 40%; /* Положение слоя от левого края */
 
+    margin-left: -15%;  /*Отступ слева */
+}
 .cl-effect-16 a::before {
 	color: #d52f47;
 	content: attr(data-hover);
@@ -1462,9 +1470,11 @@ span.menu{
 }
 .header-bottom {
   padding: 1em 0;
+    text-align: center;
 }
 .top-menu {
  margin-top: 0;
+    text-align: center;
 }
 .search {
   width: 25%;
